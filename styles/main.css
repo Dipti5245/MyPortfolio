@@ -11,6 +11,10 @@ width: 100%;
     width: 100%;
 }
 
+.img-cherry {
+    width: 100%;
+}
+
 .portfolio h1 {
     padding: 30px 30px 20px;
     font-family: arial;
@@ -31,6 +35,10 @@ width: 100%;
     width: 100%
 }
 
+.img-cherry{
+    width: 100%;
+}
+
 @media only screen and (min-width: 768px) {
     .portfolio {
         width: 600px;
@@ -46,6 +54,10 @@ width: 100%;
         }
         
         .img-bench {
+            padding-top: 30px;
+        }
+
+        .img-cherry {
             padding-top: 30px;
         }
 }
@@ -68,5 +80,11 @@ width: 100%;
        width: 50px;
        float: left;
     }
+
+    .img-cherry{
+        padding: 0px;
+        width: 50px;
+        float: left;
+     }
 
 }

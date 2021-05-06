@@ -10,3 +10,15 @@ width: 100%
 .img-lamp {
     display: none;
 }
+
+.img-bench {
+    width: 100%
+}
+
+.img-bench h2 {
+    padding: 30px 30px 20px;
+    font-family: arial;
+    font-size: 50px ;
+    color: #111;
+    line-height: 44px;
+}

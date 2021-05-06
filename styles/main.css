@@ -7,10 +7,6 @@
 width: 100%;
 }
 
-.img-lamp {
-    display: none;
-}
-
 .img-bench {
     width: 100%;
 }
@@ -33,6 +29,31 @@ width: 100%;
 
 .img-bench{
     width: 100%
+}
+
+@media only screen and (min-width: 768px) {
+    .img-lamp {
+        display: block;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .portfolio {
+        width: 600px;
+        margin: 0 auto;
+        }
+
+        .portfolio h1 {
+            padding: 20px 0px 0px;
+        }
+        
+        .portfolio p {
+            padding: 20px 0px 0px;
+        }
+        
+        .img-bench {
+            padding-top: 30px;
+        }
 }
 
 @media only screen and (min-width: 768px) {

@@ -23,14 +23,6 @@ width: 100%;
     line-height: 44px;
 }
 
-.portfolio h2 {
-    padding: 30px 30px 20px;
-    font-family: arial;
-    font-size: 50px ;
-    color: #111;
-    line-height: 44px;
-}
-
 .portfolio p {
     padding: 0px 30px 20px;
     font-family: arial;
@@ -77,10 +69,6 @@ width: 100%;
         .portfolio h1 {
             padding: 20px 0px 0px;
         }
-
-        .portfolio h2 {
-            padding: 20px 0px 0px;
-        }
         
         .portfolio p {
             padding: 20px 0px 0px;
@@ -99,12 +87,8 @@ width: 100%;
     .portfolio {
         width: 1920px;
     }
-
-    .portfolio h1 {
-        padding: 20px 0px 0px 30px;
-    }
     
-    .portfolio h2 {
+    .portfolio h1 {
         padding: 20px 0px 0px 30px;
     }
 

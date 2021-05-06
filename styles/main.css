@@ -81,6 +81,14 @@ width: 100%;
         .img-cherry {
             padding-top: 30px;
         }
+
+        .row {
+            padding-top: 30px;
+        }
+
+        .column {
+            padding-top: 30px;
+        }
 }
 
 @media only screen and (min-width: 1920px) {
@@ -103,6 +111,18 @@ width: 100%;
     }
 
     .img-cherry{
+        padding: 0px;
+        width: 50px;
+        float: left;
+     }
+
+     .row{
+        padding: 0px;
+        width: 50px;
+        float: left;
+     }
+
+     .column{
         padding: 0px;
         width: 50px;
         float: left;

@@ -32,12 +32,6 @@ width: 100%;
 }
 
 @media only screen and (min-width: 768px) {
-    .img-lamp {
-        display: block;
-        width: 100%;
-        padding-bottom: 30px;
-    }
-
     .portfolio {
         width: 600px;
         margin: 0 auto;
@@ -56,27 +50,23 @@ width: 100%;
         }
 }
 
-@media only screen and (min-width: 768px) {
-    .img-lamp {
-        display: block;
-        width: 100%;
-        padding-bottom: 30px;
+@media only screen and (min-width: 1920px) {
+    .portfolio {
+        width: 1920px;
     }
 
-    .portfolio {
-        width: 600px;
-        margin: 0 auto;
-        }
+    .portfolio h1 {
+        padding: 20px 0px 0px 30px;
+    }
+    
+    .portfolio p {
+        padding: 20px 0px 0px;
+    }
 
-        .portfolio h1 {
-            padding: 20px 0px 0px;
-        }
-        
-        .portfolio p {
-            padding: 20px 0px 0px;
-        }
-        
-        .img-bench {
-            padding-top: 30px;
-        }
+    .img-bench{
+       padding: 0px;
+       width: 50px;
+       float: left;
+    }
+
 }

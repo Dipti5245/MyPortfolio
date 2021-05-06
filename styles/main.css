@@ -4,7 +4,7 @@
 }
 
 .portfolio {
-width: 100%
+width: 100%;
 }
 
 .img-lamp {
@@ -12,7 +12,7 @@ width: 100%
 }
 
 .img-bench {
-    width: 100%
+    width: 100%;
 }
 
 .portfolio h1 {
@@ -41,4 +41,18 @@ width: 100%
         width: 100%;
         padding-bottom: 30px;
     }
+
+    .portfolio {
+        width: 600px;
+        margin: 0 auto;
+        }
+
+        .portfolio h1 {
+            padding: 20px 0px 0px;
+        }
+        
+        .portfolio p {
+            padding: 20px 0px 0px;
+        }
+        
 }
